@@ -1,7 +1,12 @@
 ('hello, world');
 describe('shout(string)',()=>{})
 
-console.log('Hello, Grandma')
-function sayHello(Grandma) { console.log ('Hello')}
-function sayHelloToGrandma() {console.log ("Hello, Grandma!")}
-sayHelloToGrandma()
+console.log('Hi, Grandma!')
+
+function sayHiTo(Grandma) { console.log ('Hello')}
+
+sayHi()
+
+function sayHiToGrandma() {console.log ("Hello, Grandma!")}
+
+sayHiTo(Grandma)
